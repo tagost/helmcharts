@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  admin-php:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-01-10T20:29:05.356546983-03:00"
+    description: A Helm chart for Kubernetes
+    digest: 1399c161fc8e2134a36fb96feccd3207368ab1c1f6bff11959273a51e7c3f465
+    name: admin-php
+    type: application
+    urls:
+    - charts/admin-php-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-01-10T20:29:05.355845401-03:00"

@@ -83,3 +83,4 @@ affinity: {}
 
 mysql:
   auth.rootPassword: root
+  auth.database: crud_2019

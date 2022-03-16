@@ -3,12 +3,28 @@ entries:
   admin-php:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-01-10T20:29:05.356546983-03:00"
+    created: "2022-03-16T18:00:15.011279504-03:00"
+    dependencies:
+    - condition: db-creation.enabled
+      name: mysql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.8.20
     description: A Helm chart for Kubernetes
-    digest: 1399c161fc8e2134a36fb96feccd3207368ab1c1f6bff11959273a51e7c3f465
+    digest: f31986b50a4b5cc75dfb50cd7c5a4b18a654e0260dae6c914fd13a41626d64da
     name: admin-php
     type: application
     urls:
     - charts/admin-php-0.1.0.tgz
     version: 0.1.0
-generated: "2022-01-10T20:29:05.355845401-03:00"
+  testchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-03-16T18:00:15.011924431-03:00"
+    description: A Helm chart for Kubernetes
+    digest: c1892caa4c0a7add2018a6ece85662f747643b6fb301557815d24ad5b327630d
+    name: testchart
+    type: application
+    urls:
+    - charts/testchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-03-16T18:00:15.006689107-03:00"

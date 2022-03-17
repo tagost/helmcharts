@@ -87,3 +87,10 @@ mysql:
     database: crud_2019
     password: root
     username: crud
+
+secrets:
+  all:
+    DB_HOST: db
+    DB_NAME: crud_2019
+    DB_USER: root
+    DB_USER_PASSWORD: root

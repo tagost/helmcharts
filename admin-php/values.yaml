@@ -90,7 +90,7 @@ mysql:
 
 secrets:
   all:
-    DB_HOST: db
+    DB_HOST: admin-php-mysql
     DB_NAME: crud_2019
     DB_USER: root
     DB_USER_PASSWORD: root
